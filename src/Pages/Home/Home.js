@@ -48,6 +48,12 @@ function Home() {
         </div>
         <Products Items={[{title: 'Closure'},{title: 'Private'},{title: 'Secluded'}]} />
         <LogoCarousel />
+        <div className='Home-Banner'>
+            <div className='Home-Banner-Content'>
+                <h2>Got 30 Seconds?</h2>
+                <button>Instant Estimate</button>
+            </div>
+        </div>
         <Footer />
     </div>
   );
