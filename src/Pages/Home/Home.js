@@ -9,7 +9,7 @@ import Footer from '../../Assets/Components/Footer'
 
 //Imported Images
 import TudeluIntroVid from '../../Assets/Images/TudeluIntroVid.mp4'
-import Carousel from './Carousel';
+import Carousel from './Carousel2';
 import LogoCarousel from './LogoCarousel';
 // import Product from '../../Assets/Images/Product.png'
 
