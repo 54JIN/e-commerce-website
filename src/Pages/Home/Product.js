@@ -1,18 +1,16 @@
 import './Product.css';
 
-import ProductImg from '../../Assets/Images/Product.png'
+import Product1Img from '../../Assets/Images/ProductImg1.webp'
+import Product2Img from '../../Assets/Images/ProductImg2.png'
 
 function Product({ title }) {
   return (
     <div className="Product">
-        <div className="Product-Content">
-            <img src={ProductImg} alt={`${title} Series Image`} />
-            <h3>{title}</h3>
-            {/* <h3>{title} Series</h3> */}
-            <h3>Series</h3>
-            <p>Read More</p>
-        </div>
-        <button>Estimate</button>
+        <img src={Product1Img} alt={`${title} Series Image`} />
+        <h3>{title}</h3>
+        <h3>Series</h3>
+        <button className='Product-Estimate-Button'>Estimate</button>
+        <button className='Product-Read-More-Button'>Read More</button>
     </div>
   );
 }
