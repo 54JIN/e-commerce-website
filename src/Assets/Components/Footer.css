@@ -1,55 +1,133 @@
-.Footer {
-    display: flex;
-    justify-content: space-around;
-    height: 60vh;
+@media only screen and (min-width: 581px) {
+    .Footer {
+        display: flex;
+        justify-content: space-around;
+        height: 60vh;
+    }
+    
+    .Footer-Logo img {
+        width: 25vw;
+        object-fit: cover;
+    }
+    
+    .Footer-Logo h3 {
+        font-family: sans-serif;
+        font-size: 4vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+    
+    .Footer-Information-Mobile {
+        display: none;
+    }
+
+    .Footer-Information-Monitor {
+        display: flex;
+        justify-content: space-around;
+        width: 50vw;
+    }
+    
+    .Footer-Information-Monitor h4 {
+        font-family: sans-serif;
+        font-size: 2vw;
+        margin-top: 0.5vw;
+        margin-bottom: 0.5vw;
+        color: #ff6219;
+    }
+    
+    .Footer-Information-Monitor p {
+        font-family: sans-serif;
+        font-size: 1.5vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+    
+    .Footer-Information-Monitor p:hover {
+        color: #ff6219;
+        cursor: pointer;
+    }
+    
+    .Footer-Information-Quick-Clicks {
+        width: 13vw;
+    }
+    
+    .Footer-Information-Office {
+        width: 10vw;
+    }
+    
+    .Footer-Information-Contact {
+        width: 10vw;
+    }
 }
 
-.Footer-Logo img {
-    width: 25vw;
-    object-fit: cover;
-}
+@media only screen and (max-width: 580px) {
+    .Footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 85vw;
+        padding-left: 10vw;
+        padding-bottom: 10vw;
+    }
+    
+    .Footer-Logo img {
+        width: 70vw;
+        object-fit: cover;
+    }
+    
+    .Footer-Logo h3 {
+        font-family: sans-serif;
+        font-size: 7vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
 
-.Footer-Logo h3 {
-    font-family: sans-serif;
-    font-size: 4vw;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-}
+    .Footer-Information-Monitor {
+        display: none;
+    }
+    
+    .Footer-Information-Mobile {
+        display: flex;
+        justify-content: space-between;
+        width: 70vw;
+    }
+    
+    .Footer-Information-Mobile h4 {
+        font-family: sans-serif;
+        font-size: 4vw;
+        margin-top: 0.5vw;
+        margin-bottom: 0.5vw;
+        color: #ff6219;
+    }
+    
+    .Footer-Information-Mobile p {
+        font-family: sans-serif;
+        font-size: 3vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+    
+    .Footer-Information-Mobile p:hover {
+        color: #ff6219;
+        cursor: pointer;
+    }
+    
+    .Footer-Information-Quick-Clicks {
+        width: 30vw;
+    }
 
-.Footer-Information {
-    display: flex;
-    justify-content: space-around;
-    width: 50vw;
-}
-
-.Footer-Information h4 {
-    font-family: sans-serif;
-    font-size: 2vw;
-    margin-top: 0.5vw;
-    margin-bottom: 0.5vw;
-    color: #ff6219;
-}
-
-.Footer-Information p {
-    font-family: sans-serif;
-    font-size: 1.5vw;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-}
-
-.Footer-Information p:hover {
-    color: #ff6219;
-    cursor: pointer;
-}
-
-.Footer-Information-Quick-Clicks {
-    width: 13vw;
-}
-
-.Footer-Information-Office {
-    width: 10vw;
-}
-
-.Footer-Information-Contact {
-    width: 10vw;
+    .Footer-Information-Mobile-Contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30vw;
+    }
+    
+    .Footer-Information-Office {
+        width: 30vw;
+    }
+    
+    .Footer-Information-Contact {
+        width: 30vw;
+    }
 }

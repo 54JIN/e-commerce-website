@@ -2,6 +2,7 @@ import './Header.css';
 
 //Images
 import Tudelu_Logo from '../Images/Tudelu-Logo.svg';
+import BurgerIcon from '../Images/BurgerIcon.svg';
 
 function Header() {
   return (
@@ -14,7 +15,8 @@ function Header() {
             <button>Learn</button>
             <button>Contact</button>
         </div>
-        <button>Free Swatch Kit</button>
+        <button className='Header-Right-NonBurger'>Free Swatch Kit</button>
+        <button className='Header-Right-Burger'><img src={BurgerIcon} alt="Options Icon" /></button>
       </div>
     </div>
   );

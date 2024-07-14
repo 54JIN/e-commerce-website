@@ -1,35 +1,79 @@
-.Pannel {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 2vw;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    padding-bottom: 2vw;
-    border-radius: 3vw;
-    width: 16vw;
-    height: 21vw;
-    background-color: #F27500;
+@media only screen and (min-width: 581px) {
+    .Pannel {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 2vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        padding-bottom: 2vw;
+        border-radius: 3vw;
+        width: 16vw;
+        height: 21vw;
+        background-color: #F27500;
+    }
+    
+    .Pannel-Content h3 {
+        font-size: 2vw;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 1vw;
+        color: white;
+    }
+    
+    .Pannel-Content p {
+        font-size: 1vw;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: white;
+    }
+    
+    .Pannel img {
+        width: 7vw;
+        object-fit: cover;
+    }
 }
 
-.Pannel-Content h3 {
-    font-size: 2vw;
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 1vw;
-    color: white;
-}
+@media only screen and (max-width: 580px) {
+    .Pannel {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        flex-direction: column;
+        flex: 1 0 100%;
+        scroll-snap-align: start;
+        background-color: #F27500;
+    }
 
-.Pannel-Content p {
-    font-size: 1vw;
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    color: white;
-}
-
-.Pannel img {
-    width: 7vw;
-    object-fit: cover;
+    .Pannel-Content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 35%;
+    }
+    
+    .Pannel-Content h3 {
+        text-align: center;
+        color: white;
+        font-size: 6vw;
+        margin-top: 0vw;
+        margin-bottom: 0vw;
+    }
+    
+    .Pannel-Content p {
+        text-align: center;
+        color: white;
+        font-size: 3.5vw;
+        margin-top: 0vw;
+        margin-bottom: 0vw;
+        width: 45vw;
+    }
+    
+    .Pannel img {
+        width: 20vw;
+        object-fit: cover;
+    }
 }

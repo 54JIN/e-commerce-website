@@ -9,6 +9,7 @@ import Footer from '../../Assets/Components/Footer'
 
 //Imported Images
 import TudeluIntroVid from '../../Assets/Images/TudeluIntroVid.mp4'
+// import Product from '../../Assets/Images/Product.png'
 
 function Home() {
   return (
@@ -20,9 +21,12 @@ function Home() {
             <div className='Home-Welcome-Content'>
                 <Header />
                 <div className='Home-Welcome-Content-Title-Section'>
-                    <div>
+                    <div className='Home-Welcome-Content-Title-Section-Monitor'>
                         <h1>Walls that</h1>
                         <h1>move you</h1>
+                    </div>
+                    <div className='Home-Welcome-Content-Title-Section-Mobile'>
+                        <h1>Walls that move you</h1>
                     </div>
                     <p>Let the magic of Tudelü transport you to whatever environment you need next.</p>
                     <div className='Home-Welcome-Content-Title-Section-Buttons'>

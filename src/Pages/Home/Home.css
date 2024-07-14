@@ -1,103 +1,208 @@
-.Home {
-    display: flex;
-    flex-direction: column;
+@media only screen and (min-width: 581px) {
+    .Home {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Home-Welcome {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .Home-Welcome-Video {
+        width: 100%;;
+        height: 100%;;
+    }
+    
+    .Home-Welcome-Video video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .Home-Welcome-Video video {
+        overflow: hidden;
+    }
+    
+    .Home-Welcome-Content {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .Home-Welcome-Content-Title-Section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 5vw;
+        margin-bottom: 5vw;
+        width: 40vw;
+    }
+    .Home-Welcome-Content-Title-Section-Mobile {
+        display: none;
+    }
+    
+    .Home-Welcome-Content-Title-Section h1 {
+        font-family:sans-serif;
+        font-size: 7vw;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: white;
+    }
+    
+    .Home-Welcome-Content-Title-Section p {
+        font-family:sans-serif;
+        font-size: 1.5vw;
+        margin-top: 1vw;
+        margin-bottom: 2vw;
+        color: white;
+    }
+    
+    .Home-Welcome-Content-Title-Section-Buttons button {
+        border: none;
+        width: 10vw;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        font-size: 1vw;
+        cursor: pointer;
+    }
+    
+    .Home-Welcome-Content-Title-Section-Estimate-Button {
+        background-color: #ff6219;
+        border-top-left-radius: 1vw;
+        border-bottom-left-radius: 1vw;
+    }
+    
+    .Home-Welcome-Content-Title-Section-LearnMore-Button {
+        background-color: black;
+        border-top-right-radius: 1vw;
+        border-bottom-right-radius: 1vw;
+        color: white;
+    }
+    
+    .Home-Carousel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        background-color: #F5F5F5;
+    }
+    
+    .Home-Carousel-Title {
+        height: 10vh;
+        margin-top: 5vh;
+    }
+    
+    .Home-Carousel-Title h2{
+        font-family:sans-serif;
+        font-size: 3.5vw;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: #F27500;
+    }
 }
 
-.Home-Welcome {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-}
+@media only screen and (max-width: 580px) {    
+    .Home {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Home-Welcome {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .Home-Welcome-Video {
+        display: none;
+    }
+    
+    .Home-Welcome-Content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+    
+    .Home-Welcome-Content-Title-Section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
 
-.Home-Welcome-Video {
-    width: 100%;;
-    height: 100%;;
-}
+    .Home-Welcome-Content-Title-Section-Monitor {
+        display: none;
+    }
 
-.Home-Welcome-Video video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+    .Highlights-Title-Monitor {
+        display: none;
+    }
+    
+    .Home-Welcome-Content-Title-Section h1 {
+        font-family:sans-serif;
+        font-size: 8vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+        color: white;
+    }
+    
+    .Home-Welcome-Content-Title-Section p {
+        font-family:sans-serif;
+        font-size: 2vw;
+        margin-top: 0px;
+        margin-bottom: 3vw;
+        color: white;
+    }
+    
+    .Home-Welcome-Content-Title-Section-Buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 48vw;
+    }
 
-.Home-Welcome-Video video {
-    overflow: hidden;
-}
-
-.Home-Welcome-Content {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    height: 100%;
-}
-
-.Home-Welcome-Content-Title-Section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-left: 5vw;
-    margin-bottom: 5vw;
-    width: 40vw;
-}
-
-.Home-Welcome-Content-Title-Section h1 {
-    font-family:sans-serif;
-    font-size: 7vw;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    color: white;
-}
-
-.Home-Welcome-Content-Title-Section p {
-    font-family:sans-serif;
-    font-size: 1.5vw;
-    margin-top: 1vw;
-    margin-bottom: 2vw;
-    color: white;
-}
-
-.Home-Welcome-Content-Title-Section-Buttons button {
-    border: none;
-    width: 10vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    font-size: 1vw;
-    cursor: pointer;
-}
-
-.Home-Welcome-Content-Title-Section-Estimate-Button {
-    background-color: #ff6219;
-    border-top-left-radius: 1vw;
-    border-bottom-left-radius: 1vw;
-}
-
-.Home-Welcome-Content-Title-Section-LearnMore-Button {
-    background-color: black;
-    border-top-right-radius: 1vw;
-    border-bottom-right-radius: 1vw;
-    color: white;
-}
-
-.Home-Carousel {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    background-color: #F5F5F5;
-}
-
-.Home-Carousel-Title {
-    height: 10vh;
-    margin-top: 5vh;
-}
-
-.Home-Carousel-Title h2{
-    font-family:sans-serif;
-    font-size: 3.5vw;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    color: #F27500;
+    .Home-Welcome-Content-Title-Section-Buttons button {
+        border-radius: 8vw;
+        height: 7vw;
+        padding-top: 0.5vw;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-bottom: 0.5vw;
+        font-size: 2.5vw;
+    }
+    
+    .Home-Welcome-Content-Title-Section-Estimate-Button {
+        border: none;
+        background-color: #ff6219;
+        color: white;
+    }
+    
+    .Home-Welcome-Content-Title-Section-LearnMore-Button {
+        border:#ff6219 solid;
+        color:#ff6219 ;
+        background: none;
+    }
+    
+    .Home-Carousel {
+        
+    }
+    
+    .Home-Carousel-Title {
+        
+    }
+    
+    .Home-Carousel-Title h2{
+        
+    }
 }
