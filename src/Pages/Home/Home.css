@@ -84,6 +84,28 @@
         border-bottom-right-radius: 1vw;
         color: white;
     }
+
+    .Carousel-Container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 67vw;
+    }
+    
+    .Carousel-Container-Title h2 {
+        text-align: center;
+        font-size: 3.5vw;
+        margin-top: 1.5vw;
+        margin-bottom: 1.5vw;
+    }
+    
+    .Carousel-Container-Title p {
+        text-align: center;
+        font-size: 1.2vw;
+        margin-top: 0.5vw;
+        margin-bottom: 0.5vw;
+    }
 }
 
 @media only screen and (max-width: 580px) {    
@@ -173,15 +195,25 @@
         background: none;
     }
     
-    .Home-Carousel {
-        
+    .Carousel-Container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 90vw;
     }
     
-    .Home-Carousel-Title {
-        
+    .Carousel-Container-Title h2 {
+        text-align: center;
+        font-size: 4.5vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
     }
     
-    .Home-Carousel-Title h2{
-        
+    .Carousel-Container-Title p {
+        text-align: center;
+        font-size: 3vw;
+        margin-top: 0.5vw;
+        margin-bottom: 0.5vw;
     }
 }

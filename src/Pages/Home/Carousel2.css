@@ -1,123 +1,234 @@
-.Carousel2 {
-    display: flex;
-    justify-content: center;
-    height: 52vw;
-    width: 100%;
+@media only screen and (min-width: 581px) {
+    .Carousel2 {
+        display: flex;
+        justify-content: center;
+        height: 52vw;
+        width: 100%;
+    }
+    
+    .Carousel-Wrapper {
+        position: relative;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .Carousel-Card {
+        display: flex;
+        flex: 1;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 2vw;
+        -webkit-box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.15); box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.15);
+        opacity: 0;
+        pointer-events: none;
+        transform: scale(0.8);
+        transition: 0.5s ease-in-out;
+    }
+    
+    .Carousel-Card-Active {
+        opacity: 1;
+        transform: scale(1);
+        pointer-events: visible;
+    }
+    
+    .Card-Video {
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .Card-Overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0, 0.5);
+        display: flex;
+        padding: 0vw 5vw;
+        align-items: flex-end;
+    }
+    
+    .Card-Overlay-Content {
+        display: flex;
+        flex-direction: column;
+        height: 55%;
+    }
+    
+    .Card-Title {
+        font-size: 9vw;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: #F27500;
+    }
+    
+    .Card-Sub-Title {
+        font-size: 2vw;
+        font-weight: 500;
+        margin-top: 0.5vw;
+        margin-bottom: 0.5vw;
+        color: white;
+    }
+    
+    .Card-Description {
+        font-size: 1vw;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 40vw;
+        color: white;
+    }
+    
+    .Carousel-Arrow-Left, .Carousel-Arrow-Right {
+        position: absolute;
+        height: 1.6vw;
+        width: 1.6vw;
+        transform: rotate(45deg);
+        top: 50%;
+        cursor: pointer;
+    }
+    
+    .Carousel-Arrow-Left {
+        border-bottom: 0.25vw solid white;
+        border-left: 0.25vw solid white;
+        left: 2vw;
+    }
+    
+    .Carousel-Arrow-Right {
+        border-right: 0.25vw solid white;
+        border-top: 0.25vw solid white;
+        right: 2vw;
+    }
+    
+    .Carousel-Pagination {
+        position: absolute;
+        bottom: 1vw;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    
+    .Pagination-Dot {
+        height: 2vw;
+        width: 2vw;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 1vw;
+        cursor: pointer;
+    }
+    
+    .Pagination-Dot:hover {
+        transform: scale(1.1);
+    }
+    
+    .Pagination-Dot-Active {
+        background-color: steelblue;
+    }
 }
 
-.Carousel-Wrapper {
-    position: relative;
-    width: 80%;
-    height: 80%;
-}
-
-.Carousel-Card {
-    display: flex;
-    flex: 1;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    border-radius: 2vw;
-    -webkit-box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.15); box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.15);
-    opacity: 0;
-    pointer-events: none;
-    transform: scale(0.8);
-    transition: 0.5s ease-in-out;
-}
-
-.Carousel-Card-Active {
-    opacity: 1;
-    transform: scale(1);
-    pointer-events: visible;
-}
-
-.Card-Video {
-    width: 100%;
-    object-fit: cover;
-}
-
-.Card-Overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0, 0.5);
-    display: flex;
-    padding: 0vw 5vw;
-    align-items: flex-end;
-}
-
-.Card-Overlay-Content {
-    display: flex;
-    flex-direction: column;
-    height: 55%;
-}
-
-.Card-Title {
-    font-size: 9vw;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    color: #F27500;
-}
-
-.Card-Sub-Title {
-    font-size: 2vw;
-    font-weight: 500;
-    margin-top: 0.5vw;
-    margin-bottom: 0.5vw;
-    color: white;
-}
-
-.Card-Description {
-    font-size: 1vw;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    width: 40vw;
-    color: white;
-}
-
-.Carousel-Arrow-Left, .Carousel-Arrow-Right {
-    position: absolute;
-    height: 30px;
-    width: 30px;
-    transform: rotate(45deg);
-    top: 50%;
-    cursor: pointer;
-}
-
-.Carousel-Arrow-Left {
-    border-bottom: 4px solid white;
-    border-left: 4px solid white;
-    left: 30px;
-}
-
-.Carousel-Arrow-Right {
-    border-right: 4px solid white;
-    border-top: 4px solid white;
-    right: 30px;
-}
-
-.Carousel-Pagination {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translate(-50%, 0);
-}
-
-.Pagination-Dot {
-    height: 2vw;
-    width: 2vw;
-    background-color: white;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 10px;
-    cursor: pointer;
-}
-
-.Pagination-Dot:hover {
-    transform: scale(1.1);
-}
-
-.Pagination-Dot-Active {
-    background-color: steelblue;
+@media only screen and (max-width: 580px) {
+    .Carousel2 {
+        display: flex;
+        justify-content: center;
+        height: 70vw;
+        width: 100%;
+    }
+    
+    .Carousel-Wrapper {
+        position: relative;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .Carousel-Card {
+        display: flex;
+        flex: 1;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 2vw;
+        -webkit-box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.15); box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.15);
+        opacity: 0;
+        pointer-events: none;
+        transform: scale(0.8);
+        transition: 0.5s ease-in-out;
+    }
+    
+    .Carousel-Card-Active {
+        opacity: 1;
+        transform: scale(1);
+        pointer-events: visible;
+    }
+    
+    .Card-Video {
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .Card-Overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0, 0.5);
+        display: flex;
+        padding: 0vw 5vw;
+        align-items: flex-end;
+    }
+    
+    .Card-Overlay-Content {
+        display: flex;
+        flex-direction: column;
+        height: 55%;
+    }
+    
+    .Card-Title {
+        font-size: 9vw;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: #F27500;
+    }
+    
+    .Card-Sub-Title {
+        font-size: 2vw;
+        font-weight: 500;
+        margin-top: 0.5vw;
+        margin-bottom: 0.5vw;
+        color: white;
+    }
+    
+    .Card-Description {
+        font-size: 1.4vw;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 40vw;
+        color: white;
+    }
+    
+    .Carousel-Arrow-Left, .Carousel-Arrow-Right {
+        display: none;
+    }
+    
+    .Carousel-Pagination {
+        position: absolute;
+        bottom: 1vw;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    
+    .Pagination-Dot {
+        height: 2vw;
+        width: 2vw;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 1vw;
+        cursor: pointer;
+    }
+    
+    .Pagination-Dot:hover {
+        transform: scale(1.1);
+    }
+    
+    .Pagination-Dot-Active {
+        background-color: steelblue;
+    }
 }
