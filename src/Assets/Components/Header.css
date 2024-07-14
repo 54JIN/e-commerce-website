@@ -1,0 +1,37 @@
+.Header-Wrapper {
+    display: flex;   
+    justify-content: center;
+    padding-top: 2vw;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 1vw;
+    width: 70vw;
+    backdrop-filter: blur(100px);
+    /* background-color: black; */
+    border-radius: 3vw;
+}
+
+.Header img {
+    width: 13vw;
+    object-fit: cover;
+}
+
+.Header button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.3vw;
+    cursor: pointer;
+}
+
+.Header-Links {
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
+}

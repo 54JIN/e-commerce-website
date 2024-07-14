@@ -1,0 +1,55 @@
+.Footer {
+    display: flex;
+    justify-content: space-around;
+    height: 60vh;
+}
+
+.Footer-Logo img {
+    width: 25vw;
+    object-fit: cover;
+}
+
+.Footer-Logo h3 {
+    font-family: sans-serif;
+    font-size: 4vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.Footer-Information {
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+}
+
+.Footer-Information h4 {
+    font-family: sans-serif;
+    font-size: 2vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    color: #ff6219;
+}
+
+.Footer-Information p {
+    font-family: sans-serif;
+    font-size: 1.5vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.Footer-Information p:hover {
+    color: #ff6219;
+    cursor: pointer;
+}
+
+.Footer-Information-Quick-Clicks {
+    width: 13vw;
+}
+
+.Footer-Information-Office {
+    width: 10vw;
+}
+
+.Footer-Information-Contact {
+    width: 10vw;
+}

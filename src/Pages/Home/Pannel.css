@@ -1,0 +1,35 @@
+.Pannel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 2vw;
+    border-radius: 3vw;
+    width: 16vw;
+    height: 21vw;
+    background-color: #F27500;
+}
+
+.Pannel-Content h3 {
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 1vw;
+    color: white;
+}
+
+.Pannel-Content p {
+    font-size: 1vw;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.Pannel img {
+    width: 7vw;
+    object-fit: cover;
+}

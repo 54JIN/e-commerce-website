@@ -1,0 +1,103 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+}
+
+.Home-Welcome {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.Home-Welcome-Video {
+    width: 100%;;
+    height: 100%;;
+}
+
+.Home-Welcome-Video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Home-Welcome-Video video {
+    overflow: hidden;
+}
+
+.Home-Welcome-Content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.Home-Welcome-Content-Title-Section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 5vw;
+    margin-bottom: 5vw;
+    width: 40vw;
+}
+
+.Home-Welcome-Content-Title-Section h1 {
+    font-family:sans-serif;
+    font-size: 7vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.Home-Welcome-Content-Title-Section p {
+    font-family:sans-serif;
+    font-size: 1.5vw;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    color: white;
+}
+
+.Home-Welcome-Content-Title-Section-Buttons button {
+    border: none;
+    width: 10vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.Home-Welcome-Content-Title-Section-Estimate-Button {
+    background-color: #ff6219;
+    border-top-left-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+}
+
+.Home-Welcome-Content-Title-Section-LearnMore-Button {
+    background-color: black;
+    border-top-right-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    color: white;
+}
+
+.Home-Carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #F5F5F5;
+}
+
+.Home-Carousel-Title {
+    height: 10vh;
+    margin-top: 5vh;
+}
+
+.Home-Carousel-Title h2{
+    font-family:sans-serif;
+    font-size: 3.5vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #F27500;
+}
