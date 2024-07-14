@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/e-commerce-website/static/css/main.5c0ab2fb.css",
+    "main.js": "/e-commerce-website/static/js/main.3f7679c6.js",
+    "static/js/453.8f537da6.chunk.js": "/e-commerce-website/static/js/453.8f537da6.chunk.js",
+    "static/media/TudeluIntroVid.mp4": "/e-commerce-website/static/media/TudeluIntroVid.33bf845dc6f1897b1a7e.mp4",
+    "static/media/Tudelu-Logo.svg": "/e-commerce-website/static/media/Tudelu-Logo.c3363944c56eb95d2b58cc32409041f9.svg",
+    "static/media/BudgetIcon.svg": "/e-commerce-website/static/media/BudgetIcon.eac8c5e9e1e179a8ee816cca00748c82.svg",
+    "static/media/MuteIcon.svg": "/e-commerce-website/static/media/MuteIcon.86acb4bf8950287d5ef38c0dc7f0158d.svg",
+    "static/media/WireIcon.svg": "/e-commerce-website/static/media/WireIcon.791296c7c583893d6179435bb65de436.svg",
+    "static/media/CompactIcon.svg": "/e-commerce-website/static/media/CompactIcon.16c2be783470317a0de39aae50b1173b.svg",
+    "index.html": "/e-commerce-website/index.html",
+    "main.5c0ab2fb.css.map": "/e-commerce-website/static/css/main.5c0ab2fb.css.map",
+    "main.3f7679c6.js.map": "/e-commerce-website/static/js/main.3f7679c6.js.map",
+    "453.8f537da6.chunk.js.map": "/e-commerce-website/static/js/453.8f537da6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c0ab2fb.css",
+    "static/js/main.3f7679c6.js"
+  ]
+}
