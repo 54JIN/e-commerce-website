@@ -10,7 +10,7 @@ import App from './App';
 const router = createBrowserRouter([
   //Page Objects
   {
-    path: '/',
+    path: '/e-commerce-website',
     element: <App />,
     errorElement: <div>404 Not Found</div>
   },
