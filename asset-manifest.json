@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/e-commerce-website/static/css/main.cd32b893.css",
-    "main.js": "/e-commerce-website/static/js/main.3c5bcb07.js",
+    "main.css": "/e-commerce-website/static/css/main.78e029ba.css",
+    "main.js": "/e-commerce-website/static/js/main.19ced613.js",
     "static/js/453.8f537da6.chunk.js": "/e-commerce-website/static/js/453.8f537da6.chunk.js",
     "static/media/TudeluIntroVid.mp4": "/e-commerce-website/static/media/TudeluIntroVid.33bf845dc6f1897b1a7e.mp4",
     "static/media/FGCULogo.png": "/e-commerce-website/static/media/FGCULogo.df477bd909acbdd81a2d.png",
@@ -19,12 +19,12 @@
     "static/media/CompactIcon.svg": "/e-commerce-website/static/media/CompactIcon.16c2be783470317a0de39aae50b1173b.svg",
     "index.html": "/e-commerce-website/index.html",
     "static/media/BurgerIcon.svg": "/e-commerce-website/static/media/BurgerIcon.462dbbaecbf654e50d3be059473a96e7.svg",
-    "main.cd32b893.css.map": "/e-commerce-website/static/css/main.cd32b893.css.map",
-    "main.3c5bcb07.js.map": "/e-commerce-website/static/js/main.3c5bcb07.js.map",
+    "main.78e029ba.css.map": "/e-commerce-website/static/css/main.78e029ba.css.map",
+    "main.19ced613.js.map": "/e-commerce-website/static/js/main.19ced613.js.map",
     "453.8f537da6.chunk.js.map": "/e-commerce-website/static/js/453.8f537da6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd32b893.css",
-    "static/js/main.3c5bcb07.js"
+    "static/css/main.78e029ba.css",
+    "static/js/main.19ced613.js"
   ]
 }
