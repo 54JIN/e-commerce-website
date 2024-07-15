@@ -37,3 +37,148 @@
     border-radius: 1vw;
     object-fit: cover;
 }
+
+.Estimate-Calculation-Wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vw;
+    margin-bottom: 5vw;
+    background-color: rgb(235, 235, 235);
+}
+
+.Estimate-Calculation h2 {
+    font-family:sans-serif;
+    font-size: 4vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.Estimate-Calculation-Content p {
+    font-family:sans-serif;
+    font-size: 1.3vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.Estimate-Calculation button {
+    font-family:sans-serif;
+    font-size: 1.3vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    background-color: #F27500;
+    border: none;
+    color: white;
+    padding-top: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 2vw;
+    cursor: pointer;
+}
+
+.Estimate-Calculation-Content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Calculation-Vertical {
+    width: 27.5vw;
+    height: 5vw;
+}
+
+.Calculation-Linear {
+    width: 26vw;
+    height: 5vw;
+}
+
+.Estimate-Calculation-Content-Input {
+    display: flex;
+    justify-content: space-between;
+    width: 6.5vw;
+}
+
+.Estimate-Calculation-Content-Input input {
+    background: none;
+    border: none;
+    width: 2vw;
+    height: 3vw;
+    font-family:sans-serif;
+    font-size: 1vw;
+}
+
+.Estimate-Calculation-Content-Input input:focus {
+    outline: none;
+}
+
+.Estimate-Calculation-Content-Input-ft {
+    display: flex;
+    align-items: center;
+    height: 4vw;
+}
+
+.Estimate-Calculation-Content-Input-in {
+    display: flex;
+    align-items: center;
+    height: 4vw;
+}
+
+.Estimate-Result {
+    width: 40vw;
+}
+
+.Estimate-Result h2{
+    /* text-align: center; */
+    font-family:sans-serif;
+    font-size: 3vw;
+    padding-top: 1vw;
+    padding-left: 2vw;
+    padding-bottom: 1vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    background-color: black; */
+    /* color: white; */
+}
+
+.Estimate-Result-Content {
+    padding-left: 2vw;
+}
+
+.Estimate-Result-Content-Description p {
+    font-family:sans-serif;
+    font-size: 1.5vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    color:rgb(104, 104, 104);
+}
+
+.Estimate-Result-Content-Details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Estimate-Result-Content-Details h3 {
+    font-family:sans-serif;
+    font-size: 1.5vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+.Estimate-Result-Content-Details p {
+    font-family:sans-serif;
+    font-size: 1vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    color:rgb(104, 104, 104);
+}
+
+.Estimate-Result-Content-Cost h3 {
+    font-family:sans-serif;
+    font-size: 4vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    color:#F27500;
+}
