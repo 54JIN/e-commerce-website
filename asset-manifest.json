@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/e-commerce-website/static/css/main.b395c8e2.css",
-    "main.js": "/e-commerce-website/static/js/main.3f3eb09e.js",
+    "main.css": "/e-commerce-website/static/css/main.d32dd7ae.css",
+    "main.js": "/e-commerce-website/static/js/main.c51cb25b.js",
     "static/js/453.8f537da6.chunk.js": "/e-commerce-website/static/js/453.8f537da6.chunk.js",
     "static/media/TudeluIntroVid.mp4": "/e-commerce-website/static/media/TudeluIntroVid.33bf845dc6f1897b1a7e.mp4",
+    "static/media/PrivateSeriesImg.webp": "/e-commerce-website/static/media/PrivateSeriesImg.cf80e7ba935fab4455f4.webp",
     "static/media/FGCULogo.png": "/e-commerce-website/static/media/FGCULogo.df477bd909acbdd81a2d.png",
     "static/media/UsAirForceLogo.png": "/e-commerce-website/static/media/UsAirForceLogo.3a7dd347ef3b06cf0878.png",
     "static/media/UsArmyLogo.png": "/e-commerce-website/static/media/UsArmyLogo.8f8c0707fed8f87d7844.png",
+    "static/media/SecludedSeriesImg.webp": "/e-commerce-website/static/media/SecludedSeriesImg.9bab3183abdbf382a617.webp",
     "static/media/HolidayInnLogo.png": "/e-commerce-website/static/media/HolidayInnLogo.f5f472bdc7cd14086826.png",
     "static/media/ProductImg2.png": "/e-commerce-website/static/media/ProductImg2.bd9620d0ab716cdaaeb2.png",
     "static/media/ProductImg1.webp": "/e-commerce-website/static/media/ProductImg1.04f277f550e98cb64756.webp",
+    "static/media/ClosureSeriesImg.webp": "/e-commerce-website/static/media/ClosureSeriesImg.e09e57ca366a73cafc56.webp",
     "static/media/AccoladeImg1.webp": "/e-commerce-website/static/media/AccoladeImg1.0a35e445d127561a700c.webp",
     "static/media/PrudentialLogo.png": "/e-commerce-website/static/media/PrudentialLogo.0ee5bc33eb7b2744ba17.png",
     "static/media/LillyLogo.png": "/e-commerce-website/static/media/LillyLogo.92ad7670c632dd822c45.png",
@@ -21,12 +24,12 @@
     "static/media/CompactIcon.svg": "/e-commerce-website/static/media/CompactIcon.16c2be783470317a0de39aae50b1173b.svg",
     "index.html": "/e-commerce-website/index.html",
     "static/media/BurgerIcon.svg": "/e-commerce-website/static/media/BurgerIcon.462dbbaecbf654e50d3be059473a96e7.svg",
-    "main.b395c8e2.css.map": "/e-commerce-website/static/css/main.b395c8e2.css.map",
-    "main.3f3eb09e.js.map": "/e-commerce-website/static/js/main.3f3eb09e.js.map",
+    "main.d32dd7ae.css.map": "/e-commerce-website/static/css/main.d32dd7ae.css.map",
+    "main.c51cb25b.js.map": "/e-commerce-website/static/js/main.c51cb25b.js.map",
     "453.8f537da6.chunk.js.map": "/e-commerce-website/static/js/453.8f537da6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b395c8e2.css",
-    "static/js/main.3f3eb09e.js"
+    "static/css/main.d32dd7ae.css",
+    "static/js/main.c51cb25b.js"
   ]
 }
