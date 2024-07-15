@@ -3,14 +3,14 @@ import './Home.css';
 //Components
 import Header from '../../Assets/Components/Header'
 import Highlights from './Highlights'
-// import Carousel from './Carousel'
+import Carousel from './Carousel2';
 import Products from './Products'
+import Accolades from './Accolades'
+import LogoCarousel from './LogoCarousel';
 import Footer from '../../Assets/Components/Footer'
 
 //Imported Images
 import TudeluIntroVid from '../../Assets/Images/TudeluIntroVid.mp4'
-import Carousel from './Carousel2';
-import LogoCarousel from './LogoCarousel';
 // import Product from '../../Assets/Images/Product.png'
 
 function Home() {
@@ -47,6 +47,7 @@ function Home() {
             <Carousel Contents={[{video: TudeluIntroVid, title: "Closure", subTitle1: "Lock yourself away.", subTitle2: "Unlock your focus", description: "A simple, sturdy wall designed to customize spaces of all shapes and sizes-from a cluttered kitchen to a messy art space.", link:""}, {video: TudeluIntroVid, title: "Private", subTitle1: "Customize your space.", subTitle2: "Crank up your decor.", description: "Create private, quite chamers with sophisticated 36 STC sound-proofing technology that doesn't require any construction.", link:""}, {video: TudeluIntroVid, title: "Secluded", subTitle1: "Protect your ears.", subTitle2: "And corporate secrets.", description: "Soundproof any space, from the ballroom to the bedroom-with a retractable wall that's sturdier and more soundproof than a permanent one.", link:""}]} />
         </div>
         <Products Items={[{title: 'Closure'},{title: 'Private'},{title: 'Secluded'}]} />
+        <Accolades />
         <LogoCarousel />
         <div className='Home-Banner'>
             <div className='Home-Banner-Content'>
