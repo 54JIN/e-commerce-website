@@ -6,12 +6,18 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import App from './App';
+import Estimate from './Pages/Estimate/Estimate';
 
 const router = createBrowserRouter([
   //Page Objects
   {
     path: '/e-commerce-website',
     element: <App />,
+    errorElement: <div>404 Not Found</div>
+  },
+  {
+    path: '/e-commerce-website/instant-estimate',
+    element: <Estimate />,
     errorElement: <div>404 Not Found</div>
   },
 ])

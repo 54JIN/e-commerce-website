@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 //Components
@@ -35,7 +36,7 @@ function Home() {
                     </div>
                     <p>Let the magic of Tudelü transport you to whatever environment you need next.</p>
                     <div className='Home-Welcome-Content-Title-Section-Buttons'>
-                        <button className='Home-Welcome-Content-Title-Section-Estimate-Button'>Instant Estimate</button>
+                        <Link to="/e-commerce-website/instant-estimate" ><button className='Home-Welcome-Content-Title-Section-Estimate-Button'>Instant Estimate</button></Link>
                         <button className='Home-Welcome-Content-Title-Section-LearnMore-Button'>Learn More</button>
                     </div>
                 </div>
@@ -55,7 +56,7 @@ function Home() {
         <div className='Home-Banner'>
             <div className='Home-Banner-Content'>
                 <h2>Got 30 Seconds?</h2>
-                <button>Instant Estimate</button>
+                <Link to="/e-commerce-website/instant-estimate" ><button>Instant Estimate</button></Link>
             </div>
         </div>
         <Footer />

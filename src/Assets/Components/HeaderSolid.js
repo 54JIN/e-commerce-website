@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 
 //Images
-import Tudelu_Logo from '../Images/Tudelu-Logo.svg';
-import BurgerIcon from '../Images/BurgerIcon.svg';
+import Tudelu_Logo from '../Images/Tudelu-Logo-White.svg';
+import BurgerIcon from '../Images/BurgerIconWhite.svg';
 
-function Header() {
+function HeaderDay() {
   return (
     <div className="Header-Wrapper">
-      <div className="Header Header-Blurr">
+      <div className="Header Header-Solid">
         <Link to="/e-commerce-website"><img src={Tudelu_Logo} alt="Tudelu logo" /></Link>
         <div className='Header-Links'>
             <button>About</button>
@@ -24,4 +24,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default HeaderDay;

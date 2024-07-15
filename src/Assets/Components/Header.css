@@ -13,9 +13,16 @@
         padding-right: 2vw;
         padding-bottom: 1vw;
         width: 70vw;
-        backdrop-filter: blur(100px);
         /* background-color: black; */
         border-radius: 3vw;
+    }
+
+    .Header-Blurr {
+        backdrop-filter: blur(100px);
+    }
+
+    .Header-Solid {
+        background-color: #F27500;
     }
     
     .Header img {
@@ -72,6 +79,7 @@
     .Header img {
         width: 35vw;
         object-fit: cover;
+        cursor: pointer;
     }
     
     .Header button {
@@ -93,5 +101,9 @@
     .Header-Right-Burger img {
         width: 9vw;
         object-fit: cover;
+    }
+
+    .Header-Solid {
+        background-color: #F27500;
     }
 }
