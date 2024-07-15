@@ -13,6 +13,10 @@
         height: 21vw;
         background-color: #F27500;
     }
+
+    .Pannel:hover {
+        transform: scale(1.01);
+    }
     
     .Pannel-Content h3 {
         font-size: 2vw;
