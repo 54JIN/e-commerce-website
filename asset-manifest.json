@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/e-commerce-website/static/css/main.4b7ab3a6.css",
+    "main.css": "/e-commerce-website/static/css/main.ec267edc.css",
     "main.js": "/e-commerce-website/static/js/main.56c4c1e4.js",
     "static/js/453.8f537da6.chunk.js": "/e-commerce-website/static/js/453.8f537da6.chunk.js",
     "static/media/TudeluIntroVid.mp4": "/e-commerce-website/static/media/TudeluIntroVid.33bf845dc6f1897b1a7e.mp4",
@@ -25,12 +25,12 @@
     "index.html": "/e-commerce-website/index.html",
     "static/media/BurgerIcon.svg": "/e-commerce-website/static/media/BurgerIcon.462dbbaecbf654e50d3be059473a96e7.svg",
     "static/media/BurgerIconWhite.svg": "/e-commerce-website/static/media/BurgerIconWhite.2816159ba2fcb4f1fa794641f7cc138d.svg",
-    "main.4b7ab3a6.css.map": "/e-commerce-website/static/css/main.4b7ab3a6.css.map",
+    "main.ec267edc.css.map": "/e-commerce-website/static/css/main.ec267edc.css.map",
     "main.56c4c1e4.js.map": "/e-commerce-website/static/js/main.56c4c1e4.js.map",
     "453.8f537da6.chunk.js.map": "/e-commerce-website/static/js/453.8f537da6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b7ab3a6.css",
+    "static/css/main.ec267edc.css",
     "static/js/main.56c4c1e4.js"
   ]
 }
