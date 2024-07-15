@@ -28,6 +28,7 @@ function Carousel2({ Contents }) {
                 return (
                     <div key={idx} className={idx === current ? 'Carousel-Card Carousel-Card-Active' : 'Carousel-Card' }>
                         <video className='Card-Video' src={vid.video} autoPlay={current === idx} loop={current === idx} muted={current === idx} disablePictureInPicture />         
+                        <img src={vid.image} className='Card-Image' slt={vid.title} />
                         <div className='Card-Overlay'>
                             <div className='Card-Overlay-Content'>
                                 <h2 className='Card-Title'>{vid.title}</h2>

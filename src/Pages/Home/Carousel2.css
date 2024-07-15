@@ -37,6 +37,10 @@
         width: 100%;
         object-fit: cover;
     }
+
+    .Card-Image {
+        display: none;
+    }
     
     .Card-Overlay {
         position: absolute;
@@ -128,7 +132,7 @@
     .Carousel2 {
         display: flex;
         justify-content: center;
-        height: 70vw;
+        height: 120vw;
         width: 100%;
     }
     
@@ -160,6 +164,10 @@
     }
     
     .Card-Video {
+        display: none;
+    }
+
+    .Card-Image {
         width: 100%;
         object-fit: cover;
     }
@@ -177,18 +185,18 @@
     .Card-Overlay-Content {
         display: flex;
         flex-direction: column;
-        height: 55%;
+        height: 45%;
     }
     
     .Card-Title {
-        font-size: 9vw;
+        font-size: 13vw;
         margin-top: 0px;
         margin-bottom: 0px;
         color: #F27500;
     }
     
     .Card-Sub-Title {
-        font-size: 2vw;
+        font-size: 3vw;
         font-weight: 500;
         margin-top: 0.5vw;
         margin-bottom: 0.5vw;
@@ -196,10 +204,10 @@
     }
     
     .Card-Description {
-        font-size: 1.4vw;
+        font-size: 2vw;
         margin-top: 0px;
         margin-bottom: 0px;
-        width: 40vw;
+        width: 50vw;
         color: white;
     }
     

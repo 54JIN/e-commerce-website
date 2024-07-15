@@ -46,6 +46,7 @@
     .Header-Wrapper {
         position: fixed;
         width: 100%;
+        height: 15vw;
         display: flex;   
         justify-content: center;
         align-items: center;
@@ -56,18 +57,20 @@
     .Header {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         padding-top: 1vw;
         padding-left: 2vw;
         padding-right: 2vw;
         padding-bottom: 1vw;
-        width: 70vw;
+        width: 80vw;
+        height: 10vw;
         backdrop-filter: blur(100px);
         /* background-color: black; */
-        border-radius: 3vw;
+        border-radius: 5vw;
     }
     
     .Header img {
-        width: 30vw;
+        width: 35vw;
         object-fit: cover;
     }
     
@@ -88,7 +91,7 @@
     }
 
     .Header-Right-Burger img {
-        width: 3vw;
+        width: 9vw;
         object-fit: cover;
     }
 }

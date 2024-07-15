@@ -11,6 +11,9 @@ import Footer from '../../Assets/Components/Footer'
 
 //Imported Images
 import TudeluIntroVid from '../../Assets/Images/TudeluIntroVid.mp4'
+import ClosureSeriesImg from '../../Assets/Images/CarouselImg/ClosureSeriesImg.webp'
+import PrivateSeriesImg from '../../Assets/Images/CarouselImg/PrivateSeriesImg.webp'
+import SecludedSeriesImg from '../../Assets/Images/CarouselImg/SecludedSeriesImg.webp'
 // import Product from '../../Assets/Images/Product.png'
 
 function Home() {
@@ -44,7 +47,7 @@ function Home() {
                 <h2>Change spaces. Not Places.</h2>
                 <p>Designed for everything from residential to industrial.</p>
             </div>
-            <Carousel Contents={[{video: TudeluIntroVid, title: "Closure", subTitle1: "Lock yourself away.", subTitle2: "Unlock your focus", description: "A simple, sturdy wall designed to customize spaces of all shapes and sizes-from a cluttered kitchen to a messy art space.", link:""}, {video: TudeluIntroVid, title: "Private", subTitle1: "Customize your space.", subTitle2: "Crank up your decor.", description: "Create private, quite chamers with sophisticated 36 STC sound-proofing technology that doesn't require any construction.", link:""}, {video: TudeluIntroVid, title: "Secluded", subTitle1: "Protect your ears.", subTitle2: "And corporate secrets.", description: "Soundproof any space, from the ballroom to the bedroom-with a retractable wall that's sturdier and more soundproof than a permanent one.", link:""}]} />
+            <Carousel Contents={[{video: TudeluIntroVid, image: ClosureSeriesImg, title: "Closure", subTitle1: "Lock yourself away.", subTitle2: "Unlock your focus", description: "A simple, sturdy wall designed to customize spaces of all shapes and sizes-from a cluttered kitchen to a messy art space.", link:""}, {video: TudeluIntroVid, image:PrivateSeriesImg, title: "Private", subTitle1: "Customize your space.", subTitle2: "Crank up your decor.", description: "Create private, quite chamers with sophisticated 36 STC sound-proofing technology that doesn't require any construction.", link:""}, {video: TudeluIntroVid, image: SecludedSeriesImg, title: "Secluded", subTitle1: "Protect your ears.", subTitle2: "And corporate secrets.", description: "Soundproof any space, from the ballroom to the bedroom-with a retractable wall that's sturdier and more soundproof than a permanent one.", link:""}]} />
         </div>
         <Products Items={[{title: 'Closure'},{title: 'Private'},{title: 'Secluded'}]} />
         <Accolades />
